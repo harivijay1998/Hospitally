@@ -47,6 +47,11 @@ header{
         text-decoration: none;
         color: #aaa;
     }
+
+    a:hover{
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
 }
 
 .login{
@@ -56,6 +61,14 @@ header{
     padding-inline: 20px;
     border-radius: 5px;
     border: none;
+    font-weight: bold;
+}
+
+.login:hover,.get_started:hover,.getstart:hover,.play:hover{
+    background-color: #f8f8f8;
+    color: #555555;
+    font-weight: bold;
+    border: 1px solid #10be79;
 }
 
 .hero_section{
