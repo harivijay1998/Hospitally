@@ -16,6 +16,10 @@
     
 }
 
+.get_started,.getstart,.btns,.hero_play,.login,.play{
+    cursor: pointer;
+}
+
 header{
     display: flex;
     justify-content: space-between;
