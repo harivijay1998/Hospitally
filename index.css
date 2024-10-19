@@ -12,8 +12,9 @@
 }
 
 .hero_container{
-    background-image: url("images/istockphoto-2059684507-1024x1024.jpg");
-    
+    background: rgb(161,244,211);
+    position: relative;
+    background: linear-gradient(56deg, rgba(161,244,211,1) 0%, rgba(161,244,211,1) 10%, rgba(255,255,255,1) 50%, rgba(161,244,211,1) 90%, rgba(161,244,211,1) 100%);
 }
 
 .get_started,.getstart,.btns,.hero_play,.login,.play{
@@ -24,7 +25,11 @@ header{
     display: flex;
     justify-content: space-between;
     padding-inline: 150px;
+    padding-block-start: 20px;
 }
+
+
+
 
 
 .logo_icon{
@@ -45,7 +50,7 @@ header{
 
     a{
         text-decoration: none;
-        color: #aaa;
+        color: #797979;
     }
 
     a:hover{
@@ -89,6 +94,7 @@ header{
 
     p{
         font-size: medium;
+        color: #797979;
     }
 }
 
@@ -99,6 +105,7 @@ header{
     border: none;
     background-color: #10be79;
     color: #f8f8f8;
+    font-weight: bold;
 }
 
 .play{
@@ -174,9 +181,10 @@ header{
 
 .grid{
     text-align: center;
-    border: 1px solid rgb(242, 241, 241);
+    border: 1px solid rgb(99, 99, 99);
     padding: 30px;
     border-radius: 10px;
+
     transition: transform 0.3s ease;
 
     h3{
@@ -190,7 +198,7 @@ header{
 
 .grid:hover{
     transform: scale3d(1.1,1.1,1.1);
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -239,6 +247,7 @@ header{
     p{
         margin-top: 20px;
         font-size: small;
+        color: #797979;
     }
 }
 
@@ -302,6 +311,7 @@ header{
     
     p{
         margin-top: 20px;
+        color: #797979;
     }
 }
 
@@ -320,6 +330,7 @@ header{
 
 .c3_img1{
     height: 245px;
+    width: 355px;
 }
 
 .c3_img1,.c3_img2,.c3_img3{
@@ -387,6 +398,7 @@ header{
 
     p{
         line-height: 2.0;
+        color: #797979;
     }
 
 }
@@ -394,6 +406,7 @@ header{
 .content1_.content2{
     p{
         margin-top: 0px;
+        color: #797979;
     }
 }
 
@@ -432,6 +445,7 @@ header{
         margin-top: 20px;
         width: 500px;
         line-height: 2.0;
+        color: #797979;
     }
 
     .get_started{
@@ -460,10 +474,15 @@ header{
 
 .switch{
     display: flex;
-    align-items: baseline;
+    align-items: flex start;
     justify-content: space-between;
     gap: 30px;
 
+}
+
+.icon_img{
+    width: 34px;
+    height: 34px;
 }
 
 .switch_head{
@@ -506,11 +525,11 @@ header{
 }
 
 .grid1_icon{
-    padding: 20px;
-    border: 1px solid #9ef2d1;
+    padding: 10px;
+    border: 1px solid #ccc;
     border-radius: 5px;
     color: #10be79;
-    background-color: #9ef2d1;
+    
 }
 
 .main_container5{
@@ -592,7 +611,7 @@ header{
 .foot1{
     p{
         width: 400px;
-        color: #aaa;
+        color: rgb(114 114 114);
         line-height: 2.0;
     }
 }
@@ -600,7 +619,7 @@ header{
 .company{
     a{
         text-decoration: none;
-        color: #aaa;
+        color:  rgb(114 114 114);
     }
 
     ul{
@@ -670,6 +689,7 @@ header{
     
         p{
             font-size: small;
+            color: #797979;
         }
     }
 
@@ -705,8 +725,8 @@ header{
 
     .screen1,.screen2{
         padding: 20px;
-        
     }
+    
 
     .screen1_img,.screen2_img{
         width: 300px;
@@ -779,6 +799,12 @@ header{
     .grid1{
         background-color: #f8f8f8;
     }
+
+    .icon_img{
+        height: 24px;
+        width: 24px;
+    }
+
 
     .sub_container2{
         width: fit-content;
@@ -918,6 +944,7 @@ header{
 
         p{
             font-size: medium;
+            color: #797979;
         }
     }
 
